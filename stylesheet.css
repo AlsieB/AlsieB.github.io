@@ -110,6 +110,12 @@ figure{
 	color: var(--purplish);
 }
 
+#tribute-link{
+	display:block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 .tribute-info{
 	display: flex;
 	flex-direction: column;
