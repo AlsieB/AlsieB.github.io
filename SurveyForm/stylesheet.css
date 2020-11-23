@@ -73,7 +73,6 @@ form{
 
 #q5{
     grid-area: q5;
-    width: 100%;
 }
 
 #q6{
@@ -92,5 +91,9 @@ form{
 
 .question{
     font-weight: bold;
+}
+
+.question-section{
     text-align: center;
+    width: 100%;
 }
