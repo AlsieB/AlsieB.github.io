@@ -22,6 +22,7 @@ body{
 }
 
 #container{
+    text-align: center;	
     margin: auto;
     position: relative;
     height: auto;
