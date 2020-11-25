@@ -76,8 +76,8 @@ h1, h2{
         align-items: center;
         margin: auto;
         overflow: auto;
-        max-width: 40%;
-        min-height: 100vh;
+        max-width: 100vh;
+        max-height: 100%;
     }
 }
 
