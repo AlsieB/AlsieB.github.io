@@ -1,140 +1,65 @@
-:root{
-	--off-white: #d4d2e0;
-	--purplish: #240033;
+@import url('https://fonts.googleapis.com/css2?family=Eagle+Lake&display=swap');
+
+html{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
-	margin: 0;
-	padding: 0;
-	border: 0;
-	height: 100vh;
-	display: grid;
-	grid-template-areas:
-	"left mid right"
-	"left mid right"
-	"left mid right";
-	grid-template-columns: 1fr 4fr 1fr;
-}
-
-#left-space{
-	grid-area: left;
+    margin: 0;
+    background-image: linear-gradient(floralwhite, cadetblue);
+    min-height: 100vh;
 }
 
 main{
-	font-family: arial;
-	position: relative;
-	height: 100%;
-	display: grid;
-	grid-area: mid;
-	grid-template-areas:
-	"header"
-	"mid"
-	"footer";
-	grid-template-rows: 50px auto 50px;
+    background-color: honeydew;
+    background-image: linear-gradient(floralwhite, cadetblue);
+    max-width: 70vh;
+    min-height: 100vh;
+    margin: auto;
+    overflow: auto;
 }
 
-#right-space{
-	grid-area: right;
-	height: auto;
+header{
+    text-align: center;
+    font-family: 'Eagle Lake', cursive;
+    font-weight: normal;
 }
 
-#content-header{
-	background-color: #240033;
-	text-align: center;
-	/*font-size: 2vh;*/
-	color: #d4d2e0;
-	overflow: hidden;
-	margin: 0;
-}
-
-#title{
-	margin: 0;
-}
-
-#content-mid{
-	display: flex;
-	flex-direction: column;
-	margin: 0;
-	padding: 0;
-	align-items: center;
-}
-
-#content-footer{
-	background-color: #240033;
-	text-align: right;
-	color: #d4d2e0;
-	overflow: hidden;
-	padding-right: 10px;
+h1, h2{
+    margin: 0;
+    padding: 0;
 }
 
 #img-div{
-	position: relative;
-	margin: 0;
-	padding: 0;
-	width: 100%;
-
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 70%;
 }
 
-#achievement-list{
-	padding: 20px;
+#image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
 }
 
-#bgd-image{
-	width: 100%;
-	height: 100%;
-	position:absolute;
-	z-index: -1;
-	opacity: 0.5;
-}
-
-figure{
-	padding: 0;
-	margin: 10px;
-}
-
-.norman-img{
-	top: 0;
-	position: relative;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 300px;
-	max-width: 100%;
-	height: auto;
-	border-radius: 40%;
-}
-
-.img-caption{
-	text-align: center;
-	font-size: 2vw;
-	color: var(--purplish);
+#tribute-info{
+    font-family: 'Eagle Lake', cursive;
+    background-color: ghostwhite;
+    border: 3px solid black;
+    padding: 2px 10px 2px 10px;
+    margin: 10px;
+    text-align: justify;
 }
 
 #tribute-link{
-	display:block;
-	margin-left: auto;
-	margin-right: auto;
+    display: block;
+    text-align: center;
 }
 
-.tribute-info{
-	display: flex;
-	flex-direction: column;
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	height: 100%;
-	font-size: 16px;
-}
-
-
-.tribute-class-1{
-	background-color: var(--off-white);
-	padding: 10px;
-	flex-grow: 1;
-}
-
-.tribute-class-2{
-	background-color: rgba(230,230,230,0.5);
-	padding: 10px;
-	flex-grow: 1;
+#img-caption{
+    text-align: center;
+    font-size: 1.2rem;
 }
