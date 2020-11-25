@@ -204,6 +204,10 @@ iframe{
     text-align: center;
 }
 
+h3{
+    text-align: center;
+}
+
 .subheading{
     background-color: var(--creamish);
     border: 3px solid var(--blackish);
