@@ -209,8 +209,4 @@ iframe{
     border: 3px solid var(--blackish);
 }
 
-@media (min-width: 600px){
-    .secret{
-        display: none;
-    }
 }
