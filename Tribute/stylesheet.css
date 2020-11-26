@@ -3,7 +3,6 @@
 html{
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: purple;
     overflow: auto;
     min-height: 100vh;
     background-image: linear-gradient(floralwhite, cadetblue);
